@@ -23,6 +23,9 @@ dependencies:
   million:
     specifier: 2.6.4
     version: 2.6.4
+  pioneer-library-example:
+    specifier: 0.1.4
+    version: 0.1.4(@types/react@18.2.37)(react-dom@18.2.0)(react-helmet@6.1.0)(react-icons@4.11.0)(react-router-dom@6.18.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -5806,6 +5809,32 @@ packages:
     resolution: {integrity: sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==}
     engines: {node: '>=4'}
     dev: true
+
+  /pioneer-library-example@0.1.4(@types/react@18.2.37)(react-dom@18.2.0)(react-helmet@6.1.0)(react-icons@4.11.0)(react-router-dom@6.18.0)(react@18.2.0):
+    resolution: {integrity: sha512-qBe3KSa/iQTBW9JXvurm7wUMUeYY+x5YlZG3nhj1ZGTwvK3j9fypC9OufDbGrXkrHX+HjrrBVrq72QvBptDFuA==}
+    engines: {node: '>=16.x.x', pnpm: '>=8'}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      react-helmet: ^6.1.0
+      react-icons: ^4.11.0
+      react-router-dom: ^6.18.0
+    dependencies:
+      '@chakra-ui/react': 2.8.1(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.37)(framer-motion@10.16.4)(react-dom@18.2.0)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.37)(react@18.2.0)
+      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.37)(react@18.2.0)
+      '@fontsource/plus-jakarta-sans': 5.0.17
+      framer-motion: 10.16.4(react-dom@18.2.0)(react@18.2.0)
+      million: 2.6.4
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-helmet: 6.1.0(react@18.2.0)
+      react-icons: 4.11.0(react@18.2.0)
+      react-router-dom: 6.18.0(react-dom@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - '@types/react'
+      - supports-color
+    dev: false
 
   /postcss@8.4.31:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}

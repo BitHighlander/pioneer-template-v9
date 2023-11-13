@@ -1,4 +1,6 @@
 import { Grid } from '@chakra-ui/react';
+// @ts-ignore
+import { HelloWorldButton } from 'pioneer-library-example';
 
 import CTASection from './components/CTASection';
 import SomeImage from './components/SomeImage';
@@ -10,6 +12,7 @@ const Home = () => {
       <SomeText />
       <SomeImage />
       <CTASection />
+      <HelloWorldButton />
     </Grid>
   );
 };
